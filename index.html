@@ -61,7 +61,7 @@
                     <li>GitHub Desktop</li>
                     <li>GitHub Deployment</li>
                 </ul>
-            </section>
+            </section><br>
             <section class="main-section" id="New_Repositories">
                 <header>
                     New Repositories
@@ -85,13 +85,25 @@
                 </p>
                 <div style="margin-left: 50px;">
                     <code>
-                        
+                        git init<br>
+                        git add README.md<br>
+                        git commit -m "first commit"<br>
+                        git remote add origin [your repository url goes here]<br>
+                        git push origin master
                     </code>
                 </div>
+                <br>
                 <img src="./assets/images/instructions.png" width="800" height="500" />
                 <p>If you did check the box to include a README, you will see the following screen.<br> You're now
-                    ready to clone your project to your machine and start making commits.
+                    ready to clone your project to your machine and start making commits.<br> To clone your project to
+                    your machine, simply open a new terminal window and type the following command:
                 </p>
+                <div style="margin-left: 30px">
+                    <code>
+                            git clone /path/to/repository
+                        </code>
+                </div>
+                <br>
                 <img src="./assets/images/new-repo-withreadme.png" width="800" height="500" />
                 <p>After you've modified your project in a code editor, you can open up a terminal window, and navigate
                     to the root folder of the project.<br> To make a new commit, enter the following in your terminal:
@@ -101,42 +113,76 @@
                     </code>
                 </div>
                 <p>You have now made a new commit and your project on GitHub will be updated with the new code.</p>
-            </section>
+            </section><br>
             <section class="main-section" id="Existing_Repositories">
                 <header>
                     Existing Repositories
                 </header>
-                <p></p>
-                <code></code>
-                <p></p>
-                <p></p>
-            </section>
+                <p>
+                    If you already have initialized a repository on your local machine, simply do the following:<br>
+                    - Create a new repository on GitHub as described by the steps above.<br>
+
+                </p>
+                <div style="margin-left: 50px;">
+                    <code>
+                        git remote add origin [your repository url goes here]<br>
+                        git push origin master    
+                    </code>
+                </div>
+            </section><br>
             <section class="main-section" id="GitHub_Deployment">
                 <header>
                     GitHub Deployment
                 </header>
-                <p></p>
-                <code></code>
-                <p></p>
-                <code></code>
-                <p></p>
-            </section>
+                <p>
+                    To deploy to GitHub Pages and make your site available to everyone around the world, you first need
+                    to click on your repository, and click on the settings button.
+                </p>
+                <p>
+                    After clicking on the settings button, scroll down to where it says "GitHub Pages" and click on the
+                    dropdown menu. <br> Select "master branch" and click on save. Your web application should now be
+                    live on the internet within the next couple of minutes.
+                </p>
+                <img src="./assets/images/github-pages.png" width="800" height="500" />
+            </section><br>
             <section class="main-section" id="GitHub_Desktop">
                 <header>
                     GitHub Desktop
                 </header>
-                <p></p>
-                <p></p>
-                <p></p>
-            </section>
+                <p>
+                    There is a version of GitHub that is available as a desktop program or application. It is available
+                    for download on the GitHub site.
+                </p>
+                <p>
+                    The desktop is very convenient for users that would like to keep from having to open up a browser
+                    every time to sign in to GitHub.
+                </p>
+                <p>
+                    Users can make commits and make pull requests from within GitHub desktop, and the application
+                    offers many other great features.
+                </p>
+                <img src="./assets/images/github-desktop.png" width="800" height="500" />
+            </section><br>
             <section class="main-section" id="Conclusion">
                 <header>
                     Conclusion
                 </header>
-                <p></p>
-                <p></p>
-                <p></p>
-            </section>
+                <p>In conclusion, you now know how to create your first repository on GitHub.</p>
+                <p>
+                    You know how to create a new repository from scratch, and you know how to import an existing
+                    repository from your machine to GitHub.
+                </p>
+                <p>You've also learned how to make commits, and how to deploy your web application to GitHub Pages.</p>
+                <p>
+                    You've learned about GitHub Desktop and some of its features. Always use the following command to
+                    keep track of your files in your project.
+                </p>
+                <div style="margin-left: 50px;">
+                    <code>
+                        git status   
+                    </code>
+                </div>
+            </section><br>
         </main>
 
     </div>
